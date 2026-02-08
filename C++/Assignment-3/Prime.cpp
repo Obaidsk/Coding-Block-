@@ -1,0 +1,19 @@
+#include<iostream>
+using namespace std;
+
+int main(){
+
+int n;
+cin>>n;
+if(n==2||n==3){
+    cout<<"Prime";
+}
+else if(n%2==0||n%3==0){
+    cout<<"Not Prime";
+}
+else{
+    cout<<"Prime";
+}
+
+    return 0;
+}
