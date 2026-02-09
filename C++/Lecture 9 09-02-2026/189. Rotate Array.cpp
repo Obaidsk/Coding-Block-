@@ -14,7 +14,7 @@ public:
             end--;
 
         }
-
+        
     }
     void rotate(vector<int>& nums, int k) {
         int n = nums.size();
