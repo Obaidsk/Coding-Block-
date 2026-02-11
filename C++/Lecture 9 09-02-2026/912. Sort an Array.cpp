@@ -33,7 +33,7 @@ public:
         mergeSort(nums, mid + 1, high);
         merge(nums, low, mid, high);
     }
-
+    
     vector<int> sortArray(vector<int>& nums) {
         mergeSort(nums, 0, nums.size() - 1);
         return nums;
